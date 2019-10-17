@@ -1,0 +1,128 @@
+@charset "UTF-8";
+* {
+  font-weight: bold;
+}
+* body {
+  height: 1000px;
+  font-family: 微軟正黑體;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #c0ffb3;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url("https://cdn.pixabay.com/photo/2015/03/26/09/44/sheep-690198_1280.jpg");
+  background-size: 1200px;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 200px 0px;
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #c0ffb3;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+}
+
+section#section_ask .col-sm-5.img {
+  background-image: url(https://d3iiux6sccuck6.cloudfront.net/assets/statics/recommend-plan-b557c5e44a7ad2f0ad6f0618c2e2c49135cc5867d9d08f3821def6da543379de.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about {
+  margin-bottom: 50px;
+}
+section#section_about img {
+  width: 50%;
+}
+section#section_about .img_wrap {
+  height: 170px;
+  overflow: hidden;
+}
+section#section_about h3 {
+  margin-right: auto;
+  margin-left: auto;
+}
+section#section_about p {
+  font-weight: normal;
+}
+
+section#section_story {
+  background-color: #222;
+  color: white;
+  padding: 0;
+}
+section#section_story .col-sm-5 {
+  background-image: url(https://photo.mac69.com/180828/EPS-180828_281/cCnRt8oYJ0_small.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+section#section_story .col-sm-7 i {
+  font-size: 40px;
+}
+section#section_story .col-sm-12.features {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+section#section_future img {
+  width: 100%;
+}
+section#section_future i {
+  font-size: 50px;
+}
+section#section_future .feature {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url("https://cdn.pixabay.com/photo/2015/03/26/09/44/sheep-690198_1280.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 350px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron .container {
+  color: white;
+  padding: 60px 0px;
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px #c0ffb3;
+}
